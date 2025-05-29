@@ -1,0 +1,51 @@
+:root{
+    --color-p: rgb(31, 5, 36);
+    
+    --color-h1:rgb(114, 12, 209);
+
+    --color-title1: #701274;
+
+    --color-h2: rgb(0, 0, 0);
+
+    --color-h3: rgb(153, 115, 189);
+
+    --color-ul: #0e0214;
+
+    --color-ahref: rgb(112, 10, 143);
+}
+
+p {
+
+    color: rgb(31, 5, 36);
+    background-color: rgb(143, 102, 182);
+    font-size: 34px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+h1 {
+    color: var(--color-h1);
+    font-size: 24px;
+}
+title1 {
+    color:var(--color-title1)
+    font-size: 28px;
+    text-align: center;
+}
+h2 {
+    color: var(--color-h2);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3 {
+    color: var(--color-h3);
+    font-size: 20px;
+    text-align: center;
+}
+ul {
+    color: var(--color-ul);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a href {
+    color: var(--color-ahref)
+}
